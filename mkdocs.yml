@@ -47,15 +47,16 @@ markdown_extensions:
   - md_in_html
   - tables
   - pymdownx.blocks.caption
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
   - pymdownx.details
   - toc:
       permalink: true
-
+  - pymdownx.superfences
 
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js

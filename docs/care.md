@@ -72,29 +72,106 @@ In the Individual Fluency Model, each cell in the ANCHOR × ECHO matrix is asses
 
 CARE does not change between the two models. The sub-capability definitions are fixed. What changes is the lens through which they are applied — system or practitioner — and the context provided by the scoring matrix they sit within. This consistency is what allows Trustably to produce a gap diagnostic between institutional maturity and individual fluency that is genuinely comparable: both scores are measured against the same underlying standard.
 
-| FOCUS Area | Capability | Sub-capability | Explore (1–2) | Experiment (3–5) | Enable (6–8) | Embrace (9–10) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **O - Observability** | A — Accurate | Valid | No validation | Data quality identified, testing strategies defined | Comprehensive validation enforced, drift detection live | Continuous automated validation |
-| **O - Observability** | A — Accurate | Unbiased | No bias monitoring | Initial fairness methods identified | Continuous bias detection operational | Fully automated, feeds governance |
-| **O - Observability** | A — Accurate | Explainable | No structured logging | Basic logging live | Structured, auditable, reproducible | Fully traceable, auto-reported |
-| **O - Observability** | A — Accurate | Integrated | Fragmented | Partial lineage tracking | Full layer coverage, end-to-end lineage | Single coherent view across all systems |
-| **O - Observability** | A — Accurate | Observable | No metrics or logging | Metrics and thresholds defined | Comprehensive live instrumentation | Full coverage including agentic, automated response |
-| **U - Unified Platform** | A — Accurate | Valid | Ad-hoc | Pilot-testing | Automated gates | Supply-chain valid |
-| **U - Unified Platform** | A — Accurate | Unbiased | No tools | Manual checks | DataOps gates | Design-embedded |
-| **U - Unified Platform** | A — Accurate | Explainable | Black box | Partial lineage | Full traceability | Auto-auditable |
-| **U - Unified Platform** | A — Accurate | Integrated | Siloed | Emerging patterns | Unified Platform | Composable Mesh |
-| **F - Functional Governance** | A — Accurate | Valid | Vague | Terms defined | Framework enforced | Audit-validated |
-| **F - Functional Governance** | A — Accurate | Unbiased | Ignored | Ethics principles | Mandatory audits | Design-embedded |
-| **F - Functional Governance** | A — Accurate | Explainable | Opaque | Manual docs | Policy Registry | Auto-auditable |
-| **F - Functional Governance** | A — Accurate | Integrated | Siloed | Mapped gates | SDLC-embedded | Unified Mesh |
-| **C - Culture** | A — Accurate | Valid | Blind trust | Verification basics | ECHO Habits | Critical Inquiry |
-| **C - Culture** | A — Accurate | Unbiased | Denial | Curiosity | Adversarial Mindset | Design Equity |
-| **C - Culture** | A — Accurate | Explainable | Magic Box | Mechanics-aware | Rationale-driven | Reasoning-first |
-| **C - Culture** | A — Accurate | Integrated | Tool-siloed | Shared language | Cross-functional | Unified Process |
-| **S - Security** | A — Accurate | Valid | Untested | Manual tests | Signed Artifacts | Live Red-Teaming |
-| **S - Security** | A — Accurate | Unbiased | No monitoring | Human-led | Quantitative checks | AI-driven fairness |
-| **S - Security** | A — Accurate | Explainable | Silent blocks | Manual logs | Policy-traceable | Auto-rationale |
-| **S - Security** | A — Accurate | Integrated | Siloed | SIEM/SOAR integration | Secure-by-design | Security Mesh |
+=== "F - Functional Governance"
+
+    | Capability | Sub-capability | Explore (1–2) | Experiment (3–5) | Enable (6–8) | Embrace (9–10) |
+    | :--- | :--- | :--- | :--- | :--- | :--- |
+    | **C — Consistent** | Strategic | No strategy | Pilot-aligned | Org-aligned / KPIs | Self-evolving |
+    | **C — Consistent** | Viable | Unfunded | Pilot budget | Centralized Office | Self-optimizing |
+    | **C — Consistent** | Resilient | Fragile | Change-aware | NIST/ISO Aligned | Self-healing |
+    | **A — Accurate** | Valid | Vague | Terms defined | Framework enforced | Audit-validated |
+    | **A — Accurate** | Unbiased | Ignored | Ethics principles | Mandatory audits | Design-embedded |
+    | **A — Accurate** | Explainable | Opaque | Manual docs | Policy Registry | Auto-auditable |
+    | **A — Accurate** | Integrated | Siloed | Mapped gates | SDLC-embedded | Unified Mesh |
+    | **R — Reliable** | Observable | Blind | Manual Inventory | Live AI Registry | Predictive |
+    | **R — Reliable** | Transparent | Secretive | Internal Disclosure | Automated Disclosure | Radical/Open |
+    | **R — Reliable** | Accountable | Diffuse | Project-owned | Formal RACI | Policy-enforced |
+    | **R — Reliable** | Interoperable | Incompatible | Converging | Standardized | Global/Open |
+    | **E — Effective** | Desirable | "No" Dept | Self-assessment | Business Enabler | Frictionless |
+    | **E — Effective** | Secure | None | PIAs initiated | Zero-Trust Enforced | Adaptive |
+    | **E — Effective** | Context-Aware | Rigid | Risk-tiered | Profile-calibrated | Dynamic |
+    | **E — Effective** | Safe | Reactive | Safety principles | Ops operational | Proactive |
+
+=== "O - Observability"
+
+    | Capability | Sub-capability | Explore (1–2) | Experiment (3–5) | Enable (6–8) | Embrace (9–10) |
+    | :--- | :--- | :--- | :--- | :--- | :--- |
+    | **C — Consistent** | Strategic | No observability strategy | Scope tied to pilot risk | Aligned to org risk tolerance | Dynamically updated with business objectives |
+    | **C — Consistent** | Viable | No sustainability consideration | Cost efficiency emerging | Auto-scaling, cost optimised | Self-optimising |
+    | **C — Consistent** | Resilient | No baseline | Baselines defined, stress testing initiated | Systematic testing, auto-scale deployed | Fully resilient, self-healing |
+    | **A — Accurate** | Valid | No validation | Data quality identified, testing strategies defined | Comprehensive validation enforced, drift detection live | Continuous automated validation |
+    | **A — Accurate** | Unbiased | No bias monitoring | Initial fairness methods identified | Continuous bias detection operational | Fully automated, feeds governance |
+    | **A — Accurate** | Explainable | No structured logging | Basic logging live | Structured, auditable, reproducible | Fully traceable, auto-reported |
+    | **A — Accurate** | Integrated | Fragmented | Partial lineage tracking | Full layer coverage, end-to-end lineage | Single coherent view across all systems |
+    | **A — Accurate** | Observable | No metrics or logging | Metrics and thresholds defined | Comprehensive live instrumentation | Full coverage including agentic, automated response |
+    | **R — Reliable** | Transparent | No reporting | Initial policies and documentation | Routine stakeholder communication | Automated, proactive disclosure |
+    | **R — Reliable** | Accountable | — | — | — | — |
+    | **R — Reliable** | Interoperable | Fragmented tools | Converging tool choices | Standardised, integrated | Fully interoperable across ecosystem |
+    | **E — Effective** | Desirable | Data not acted upon | Measurement tied to use case goals | Outputs inform decisions | Drives automated operational outcomes |
+    | **E — Effective** | Secure | No security consideration | Security risks measured in pilots | Formally measured, monitoring data protected | Automated threat detection, hardened infrastructure |
+    | **E — Effective** | Context-Aware | Generic monitoring | Risk-profile calibrated per pilot | Fully context-sensitive | Dynamically adaptive |
+    | **E — Effective** | Safe | No unsafe output monitoring | Basic guardrails in place | Automated harmful output detection | Proactive, pre-impact detection with human override |
+
+
+=== "C - Culture"
+
+    | Capability | Sub-capability | Explore (1–2) | Experiment (3–5) | Enable (6–8) | Embrace (9–10) |
+    | :--- | :--- | :--- | :--- | :--- | :--- |
+    | **C — Consistent** | Strategic | Patchy awareness | Champion-led | Applied AI Identity | Core Pillar |
+    | **C — Consistent** | Viable | Ad-hoc learning | Lunch & Learns | Formal Literacy Budget | Peer-to-Peer |
+    | **C — Consistent** | Resilient | High fear | Fail-fast (Pilots) | Psych. Safety | Anti-fragile |
+    | **A — Accurate** | Valid | Blind trust | Verification basics | ECHO Habits | Critical Inquiry |
+    | **A — Accurate** | Unbiased | Denial | Curiosity | Adversarial Mindset | Design Equity |
+    | **A — Accurate** | Explainable | Magic Box | Mechanics-aware | Rationale-driven | Reasoning-first |
+    | **A — Accurate** | Integrated | Tool-siloed | Shared language | Cross-functional | Unified Process |
+    | **R — Reliable** | Observable | Closed | Periodic updates | Radical Sharing | Open-Source |
+    | **R — Reliable** | Transparent | Masked AI use | Encouraged | Disclosure-default | Radical Honesty |
+    | **R — Reliable** | Accountable | Diffuse | Project-owned | ANCHOR Habits | Sovereign |
+    | **R — Reliable** | Interoperable | Clashing metaphors | Common terms | Shared Taxonomy | Universal |
+    | **E — Effective** | Desirable | Fear/Threat | Tool-curiosity | Co-pilot mindset | Fulfilling/Essential |
+    | **E — Effective** | Secure | Leaky | List-checked | Human Firewall | Instinctive |
+    | **E — Effective** | Context-Aware | Generic use | Task-selection | Risk-calibrated | Dynamic |
+    | **E — Effective** | Safe | Ignored | Check-box | Safety as Value | Moral Imperative |
+
+=== "U - Unified Platform"
+
+    | Capability | Sub-capability | Explore (1–2) | Experiment (3–5) | Enable (6–8) | Embrace (9–10) |
+    | :--- | :--- | :--- | :--- | :--- | :--- |
+    | **C — Consistent** | Strategic | No strategy | Pilot-aligned | Org-aligned | Self-evolving |
+    | **C — Consistent** | Viable | Untracked cost | Manual tracking | FinOps active | Self-optimising |
+    | **C — Consistent** | Resilient | Manual/Fragile | Basic CI/CD | High-Availability | Self-healing |
+    | **A — Accurate** | Valid | Ad-hoc | Pilot-testing | Automated gates | Supply-chain valid |
+    | **A — Accurate** | Unbiased | No tools | Manual checks | DataOps gates | Design-embedded |
+    | **A — Accurate** | Explainable | Black box | Partial lineage | Full traceability | Auto-auditable |
+    | **A — Accurate** | Integrated | Siloed | Emerging patterns | Unified Platform | Composable Mesh |
+    | **R — Reliable** | Observable | Invisible | Basic Logging | MLOps Telemetry | Predictive |
+    | **R — Reliable** | Transparent | Opaque | Team-shared | Org-wide Dashboards | Radical/Open |
+    | **R — Reliable** | Accountable | No ownership | Project-owned | Platform SLOs | Policy-enforced |
+    | **R — Reliable** | Interoperable | Locked-in | Basic caching | Modular/Open | Zero-friction |
+    | **E — Effective** | Desirable | High friction | Template-based | Self-service | Frictionless |
+    | **E — Effective** | Secure | Loose | Basic SSO/RBAC | Zero-trust/DASF | Adaptive |
+    | **E — Effective** | Context-Aware | Generic | Intent-based | Risk-calibrated | Dynamically Adaptive |
+    | **E — Effective** | Safe | No controls | Kill-switches | Guardrails live | Proactive/Inherent |
+
+=== "S - Security"
+
+    | Capability | Sub-capability | Explore (1–2) | Experiment (3–5) | Enable (6–8) | Embrace (9–10) |
+    | :--- | :--- | :--- | :--- | :--- | :--- |
+    | **C — Consistent** | Strategic | Reactive | Pilot-level | NIST/DASF Aligned | Competitive Edge |
+    | **C — Consistent** | Viable | Unfunded | Manual reviews | Scalable SecOps | Self-optimizing |
+    | **C — Consistent** | Resilient | Fragile | Basic IR | AI-specific IR | Self-isolating |
+    | **A — Accurate** | Valid | Untested | Manual tests | Signed Artifacts | Live Red-Teaming |
+    | **A — Accurate** | Unbiased | No monitoring | Human-led | Quantitative checks | AI-driven fairness |
+    | **A — Accurate** | Explainable | Silent blocks | Manual logs | Policy-traceable | Auto-rationale |
+    | **A — Accurate** | Integrated | Siloed | SIEM/SOAR integration | Secure-by-design | Security Mesh |
+    | **R — Reliable** | Observable | Blind | Basic logs | Real-time telemetry | Predictive |
+    | **R — Reliable** | Transparent | Opaque | Internal docs | Live Dashboards | Radical/Open |
+    | **R — Reliable** | Accountable | No owner | Project-owned | Formal Auth | Policy-enforced |
+    | **R — Reliable** | Interoperable | Locked-in | Converging patterns | Multi-model support | Zero-friction |
+    | **E — Effective** | Desirable | High friction | Template-based | Self-service | Invisible/Frictionless |
+    | **E — Effective** | Secure | None | SSO/RBAC | Zero-Trust / DASF | Active Defense |
+    | **E — Effective** | Context-Aware | Generic | Risk-based | Tier-calibrated | Dynamic Trust |
+    | **E — Effective** | Safe | No controls | HITL / Filters | Guardrails live | Proactive/Preventative |
 
 ---
 ## CARE and External Frameworks
