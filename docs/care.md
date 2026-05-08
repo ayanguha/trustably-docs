@@ -19,6 +19,10 @@ CARE is the quality rubric that governs both dimensions of Trustably. It defines
 
 This dual definition is deliberate and important. When an organisation asks whether its AI platform is Context-Aware, and when a practitioner asks whether they are Context-Aware in their AI work, they are being held to the same underlying quality — expressed differently, but measuring the same thing. This creates a unified quality language across the entire framework.
 
+<figure markdown="span">
+  ![Maturity Model](images/care.png){ width=800 }
+  <figcaption></figcaption>
+</figure>
 
 ---
 
