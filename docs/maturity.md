@@ -11,7 +11,7 @@ hide:
 The Institutional Maturity Model is the organisational dimension of Trustably. It describes how organisations progress in their AI adoption journey — not as a linear march through identical stages, but as a multi-dimensional assessment across five distinct capability areas, each of which can be at a different maturity level at any given time.
 
 <figure markdown="span">
-  ![Maturity Model](images/institutional.png){ width=600 }
+  ![Maturity Model](images/institutional.png){ width=950 }
   <figcaption></figcaption>
 </figure>
 
