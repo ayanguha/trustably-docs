@@ -5,6 +5,7 @@ use_directory_urls: false
 
 theme:
   name: material
+  variant: classic
   font:
     text: Google Sans
   palette:
@@ -32,6 +33,7 @@ nav:
   - Home: index.md
   - Care: care.md
   - Maturity: maturity.md
+  - Focus: focus.md
   - Fluency: fluency.md
   - Playbook: playbook.md 
   - Lifecycle: lifecycle.md 

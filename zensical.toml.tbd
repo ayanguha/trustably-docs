@@ -1,0 +1,66 @@
+[project]
+site_name = "Trustably Docs"
+site_description = "Personal profile – data, AI, and engineering leadership"
+site_url = "https://your-domain.com/docs/"
+use_directory_urls = false
+
+# 👇 This must be declared inside the [project] block
+extra_css = [
+  "stylesheets/extra.css"
+]
+
+extra_javascript = [
+  "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"
+]
+
+nav = [
+  { Home = "index.md" },
+  { Care = "care.md" },
+  { Maturity = "maturity.md" },
+  { Fluency = "fluency.md" },
+  { Playbook = "playbook.md" },
+  { Lifecycle = "lifecycle.md" }
+]
+
+[project.theme]
+name = "material"
+features = [
+  "navigation.path",
+  "navigation.tabs",
+  "navigation.tabs.sticky",
+  "navigation.footer",
+  "navigation.instant",
+  "navigation.tracking",
+  "navigation.sections",
+  "navigation.top",
+  "content.fade"
+]
+
+[project.theme.font]
+text = "Google Sans"
+
+[project.theme.palette]
+scheme = "default"
+primary = "custom"
+accent = "custom"
+
+[project.theme.footer]
+copyright = "Copyright &copy; 2024 Trustably - Applied AI Adoption Framework"
+
+[project.theme.icon]
+logo = "simple/ticktick"
+
+[project.plugins]
+search = { enabled = false }
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+footnotes = {}
+md_in_html = {}
+tables = {}
+"pymdownx.blocks.caption" = {}
+"pymdownx.tabbed" = { alternate_style = true }
+"pymdownx.details" = {}
+toc = { permalink = true }
+"pymdownx.superfences" = {}
