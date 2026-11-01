@@ -92,7 +92,7 @@ Trustably is built on three distinct and interlocking components.
     *   **Outcomes:** Prioritizing tangible business value and utility over purely technical performance.
     *   **Responsibility:** Taking full ownership of the results and ethical impacts of AI-assisted work.
         
-    ANCHOR habits are non-linear; they are concurrent disciplines applied across all AI work, not a ladder to climb. ECHO modes are the scoring surface that reveals where a practitioner's capability profile sits and where development effort is most needed.
+    ANCHOR habits are non-linear; they are concurrent disciplines applied across all AI work, not a ladder to climb. 
 
     [Learn More](fluency.md){ .md-button }
 

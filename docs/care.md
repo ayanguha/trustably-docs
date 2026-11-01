@@ -15,7 +15,7 @@ CARE is the quality rubric that governs both dimensions of Trustably. It defines
 
     For organisations, CARE provides the rubric within every scoring cell of the 4E × FOCUS matrix. Rather than asking "did you complete this practice?" it asks "how well does this practice meet the quality standard?" The difference matters enormously in practice: an organisation can have a model registry (a practice) that is poorly governed, untested, and opaque — or one that is valid, observable, and accountable. CARE distinguishes between the two.
 
-    For practitioners, CARE provides the quality standard within every cell of the ANCHOR × ECHO matrix. It shifts the question from "do you use AI?" to "do you use AI in a way that is accurate, reliable, consistent, and effective?" That is a fundamentally more useful and more honest question.
+    For practitioners, CARE provides the quality standard within every cell of the ANCHOR. It shifts the question from "do you use AI?" to "do you use AI in a way that is accurate, reliable, consistent, and effective?" That is a fundamentally more useful and more honest question.
 
 This dual definition is deliberate and important. When an organisation asks whether its AI platform is Context-Aware, and when a practitioner asks whether they are Context-Aware in their AI work, they are being held to the same underlying quality — expressed differently, but measuring the same thing. This creates a unified quality language across the entire framework.
 
@@ -72,7 +72,7 @@ CARE operates as the quality rubric within every scoring cell of both Trustably 
 
 In the Institutional Maturity Model, each cell in the 4E × FOCUS matrix is assessed against the relevant CARE sub-capabilities. A cell at the Explore stage for Observability, assessed against the Observable sub-capability, might be characterised as: "No defined metrics or logging. System behaviour is invisible." The same cell at Embrace might be: "Full observability coverage across all AI assets. All signals and thresholds actively monitored with automated response." The CARE sub-capability provides the quality language; the 4E stage provides the progression context.
 
-In the Individual Fluency Model, each cell in the ANCHOR × ECHO matrix is assessed against CARE sub-capabilities using the practitioner-facing definitions. A practitioner assessed on the Habits component of ANCHOR, scored against the Consistent quality, would be evaluated on whether their AI practice is Strategic (purposeful), Viable (sustainable), and Resilient (maintained under pressure) — not just whether they use AI regularly.
+In the Individual Fluency Model, each cell in the ANCHOR matrix is assessed against CARE sub-capabilities using the practitioner-facing definitions. A practitioner assessed on the Habits component of ANCHOR, scored against the Consistent quality, would be evaluated on whether their AI practice is Strategic (purposeful), Viable (sustainable), and Resilient (maintained under pressure) — not just whether they use AI regularly.
 
 CARE does not change between the two models. The sub-capability definitions are fixed. What changes is the lens through which they are applied — system or practitioner — and the context provided by the scoring matrix they sit within. This consistency is what allows Trustably to produce a gap diagnostic between institutional maturity and individual fluency that is genuinely comparable: both scores are measured against the same underlying standard.
 
@@ -124,7 +124,7 @@ CARE does not change between the two models. The sub-capability definitions are 
     | **C — Consistent** | Strategic | Patchy awareness | Champion-led | Applied AI Identity | Core Pillar |
     | **C — Consistent** | Viable | Ad-hoc learning | Lunch & Learns | Formal Literacy Budget | Peer-to-Peer |
     | **C — Consistent** | Resilient | High fear | Fail-fast (Pilots) | Psych. Safety | Anti-fragile |
-    | **A — Accurate** | Valid | Blind trust | Verification basics | ECHO Habits | Critical Inquiry |
+    | **A — Accurate** | Valid | Blind trust | Verification basics | Critical Inquiry |
     | **A — Accurate** | Unbiased | Denial | Curiosity | Adversarial Mindset | Design Equity |
     | **A — Accurate** | Explainable | Magic Box | Mechanics-aware | Rationale-driven | Reasoning-first |
     | **A — Accurate** | Integrated | Tool-siloed | Shared language | Cross-functional | Unified Process |

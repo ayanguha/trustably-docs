@@ -85,9 +85,7 @@ ANCHOR habits are not a progression. They are concurrent disciplines, applied ac
 
 ## The Fluency Matrix
 
-The Individual Fluency assessment scores each of the six ANCHOR habits across each of the four ECHO modes. This produces a 24-cell matrix — not a single fluency score, but a capability profile that reveals where a practitioner's habits are strong, where they are underdeveloped, and which ECHO modes they are equipped to work in responsibly.
-
-The image above shows an example of the content structure — each cell contains a named practice (such as "Failure-Mode Anticipation" for Resilient under Awareness, or "The FinOps Reflex" for Viable under Habits), a brief description of what that practice looks like in action, and the ECHO modes it is most relevant to. These named practices form the ANCHOR Playbook — the practitioner-facing equivalent of the institutional suggested actions, grounded in real AI engineering and responsible use research.
+The Individual Fluency assessment scores each of the six ANCHOR habits across each of the four CARE dimensions. This produces a 24-cell matrix — not a single fluency score, but a capability profile that reveals where a practitioner's habits are strong and where they are underdeveloped 
 
 A practitioner who scores strongly on Awareness but weakly on Responsibility across Own mode is not "low fluency" — they are specifically underprepared for the accountability demands of multi-agent and autonomous system work. That precision is what makes the Individual Fluency Model useful: it produces a targeted development profile, not a single number. 
 

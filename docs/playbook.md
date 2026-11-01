@@ -123,7 +123,7 @@ This is the user-facing interface and orchestration layer, likely built with **F
 <div class="grid cards" markdown>
 
 - **Landing Page (HTML5)**
-    The entry point where users or consultants input assessment data. This serves as the capture mechanism for both the **4E Maturity** markers (Institutional) and **ANCHOR/ECHO** metrics (Individual).
+    The entry point where users or consultants input assessment data. This serves as the capture mechanism for both the **4E Maturity** markers (Institutional) and **ANCHOR** metrics (Individual).
 - **API:** 
     A RESTful interface that decouples the frontend from the heavy-lifting logic. It receives payloads, validates them, and routes them to the Core App.
 - **Core App:** 
@@ -144,7 +144,7 @@ This component leverages **CrewAI** to perform specialized cognitive tasks that 
 <div class="grid cards" markdown>
 
 - **Scoring Agent:** 
-    Analyzes the raw input against the **90-cell ANCHOR/ECHO matrix** and the **4E Focus Areas** to generate quantitative metrics.
+    Analyzes the raw input against the **90-cell ANCHOR matrix** and the **4E Focus Areas** to generate quantitative metrics.
 - **Justification Agent:** 
     Its primary role is to explain the "Why" behind a score, ensuring the report meets the **Explainable** trait of the CARE standard.
 - **Planning Agent:** 
