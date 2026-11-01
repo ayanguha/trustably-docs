@@ -10,18 +10,6 @@ Artificial intelligence (AI) represents a material technological capability with
 
 In this rapidly changing technology landscape, the single most important factor for success is building safe, reliable, and trustworthy AI and Agentic solutions. At the same time it is often the most underrated aspect and often overlooked in the noise. We are here to help you navigate this complexity with clarity and confidence.
 
-??? trustably  "Preface"
-
-    As AI-enabled and AI-augmented systems become easier to develop and deploy, the complexity of ensuring their reliability, safety, and trustworthiness increases correspondingly, requiring deliberate governance and oversight.
-
-    Contemporary AI solutions are increasingly underpinned by generative AI (GenAI) technologies, including large language models (LLMs). These models are inherently non-deterministic, producing probabilistic outputs rather than predictable, repeatable results. Traditional software engineering, risk management, and control frameworks, however, are primarily designed around deterministic system behavior. As a result, existing standards, assurance practices, and control mechanisms are often insufficient to fully address the risk characteristics introduced by AI systems. This creates a material gap between established technology risk management approaches and the emerging risk profile associated with AI adoption.
-
-    AI-related risks are not confined to individual systems or use cases. They arise across system interactions, including integrations between AI and traditional applications, interactions among multiple AI systems, and human–AI decision-making processes. In addition, the increasing adoption of agent-based AI architectures—where systems are granted varying degrees of autonomy to initiate actions—introduces new dimensions of operational, ethical, and compliance risk. The emergence of multi-agent ecosystems further compounds these challenges by increasing system interdependence, opacity, and potential for cascading failure modes.
-
-    As AI systems scale in autonomy and complexity, enterprises must anticipate a corresponding amplification of both value and risk. Effective AI governance therefore requires extending existing enterprise risk management frameworks to address AI-specific risks, supported by clear accountability structures, robust controls, continuous monitoring, and lifecycle-based assurance. Without such measures, organizations may struggle to balance innovation objectives with regulatory compliance, operational resilience, and stakeholder trust. 
-
-    The AI governance landscape is crowded but poorly served. NIST AI RMF, Databricks DASF, and AWS Well-Architected AI Lens are rigorous and credible — but they were designed for enterprise organisations with the resources to interpret and implement them. Mid-size companies either attempt to apply frameworks that weren't built for their scale, or they proceed without governance entirely. Neither outcome is acceptable as AI moves from productivity tool to core business infrastructure.
-
 <div class="grid cards" markdown>
 
 - ##### **Amplification Risk** 
