@@ -1,5 +1,11 @@
 name: Documentation
 on:
+  workflow_dispatch:
+    inputs:
+        logLevel:
+          description: 'Log level'
+          required: true
+          default: 'info'
   push:
     branches:
       - master
